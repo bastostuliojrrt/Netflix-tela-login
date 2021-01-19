@@ -1,0 +1,179 @@
+/* RESET CONFIGURAÇÕES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* TAGS GERAIS */
+
+body{
+    background-image: url(../imagens/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img{
+    width: 200px;
+    padding: 18px;
+}
+
+form{
+    margin-top: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    text-align: left;
+    margin-top: 30px;
+}
+
+button{
+    background-color:#e50914;
+    color: white;
+    margin: 40px 0px 10px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 15px 123px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 100px;
+    height: 216px;
+    color: #757575;
+    background-color: rgba(0, 0, 0, 0.788);
+    padding: 50px 0 0 175px;
+}
+
+footer a{
+    color: #757575;
+}
+
+select{
+    outline: none;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* DIV PRINCIPAL */
+
+#main{
+    background-color: rgba(0, 0, 0, 0.589);
+    width: 100%;
+}
+
+#principal{
+    display: flex;
+    justify-content: center;
+}
+
+#login{
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 300px;
+    padding: 20px 60px 40px;
+    border-radius: 5px;
+    color: white;
+}
+
+#check_box{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    color: #b3b3b3;
+}
+
+#facebook{
+    margin-top: 50px;
+    align-items: center;
+    font-size: 13px;
+}
+
+#facebook img{
+    background-color: white;
+    width: 20px;
+}
+
+#assine_agora{
+    margin-top: 17px;
+    color: #737373;
+}
+
+#novo_aqui a{
+    color: white;
+}
+
+
+#login_rp{
+    margin-top: 17px;
+    font-size: 13px;
+    color: #8c8c8c;
+}
+
+#login_rp a{
+    color: #0071eb;
+}
+
+#box_links{
+    display: flex;
+    margin-top: 20px;
+}
+
+/* CLASSES */
+
+.text_box{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 3.6px;
+    width: 93%;
+    height: 45px;
+    margin-top: 15px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.links{
+    display: block;
+    margin-right: 50px;
+    width: 200px;
+    line-height: 30px;
+    color: #757575;
+    font-size: 13px;
+}
+
+.links a{
+    margin-bottom: 50px;
+}
+
+.links button{
+    display: flex;
+    padding: 10px;
+    background-color: black;
+    border: 1px solid #333;
+    outline: none;
+}
+
+.links img{
+    width: 15px;
+    margin-right: 20px;
+}
